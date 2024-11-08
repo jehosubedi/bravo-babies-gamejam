@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,8 +9,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Vector2 inputVector;
     CameraController cam;
-    int storeQueue;
-    bool selling = false;
+    List<AIController> storeQueue = new List<AIController>();
 
     private void Awake()
     {
@@ -18,13 +18,8 @@ public class PlayerController : MonoBehaviour
     }
     public void Update()
     {
-        if (!selling)
+        if (storeQueue.Count == 0)
             inputVector = new Vector2(joystick.Horizontal(), joystick.Vertical());
-
-        if (Input.GetKeyDown(KeyCode.Space))
-            ToggleStore(1);
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-            ToggleStore(-1);
     }
 
     private void FixedUpdate()
@@ -32,14 +27,24 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(rb.position + inputVector * movementSpeed * Time.fixedDeltaTime);
     }
 
-    public void ToggleStore(int queue)
+    public bool Queue(AIController customer)
     {
-        storeQueue += queue;
-        if (storeQueue > 0)
-            selling = true;
-        else
-            selling = false;
-        
-        cam.ToggleOffset(selling);
+        var queued = false;
+        if (storeQueue.Count < 3)
+        {
+            storeQueue.Add(customer);
+            cam.ToggleOffset(true);
+            queued = true;
+            inputVector = Vector2.zero;
+        }
+
+        return queued;
+    }
+
+    public void Fulfill(AIController target)
+    {
+        storeQueue.Remove(target);
+        if (storeQueue.Count == 0)
+            cam.ToggleOffset(false);
     }
 }
