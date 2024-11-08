@@ -1,18 +1,33 @@
+using System;
 using System.Collections;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UITransitions : MonoBehaviour
 {
+    public static UITransitions Instance;
     public CanvasGroup canvas;
 
-    public void FadeIn(int delay)
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            FadeIn(1.5f);
+        }
+        else
+            Destroy(gameObject);
+    }
+
+    public void FadeIn(float delay)
     {
         StopAllCoroutines();
 
         StartCoroutine(FadeIn(delay));
 
-        IEnumerator FadeIn(int delay)
+        IEnumerator FadeIn(float delay)
         {
             while (canvas.alpha > 0)
             {
@@ -29,13 +44,13 @@ public class UITransitions : MonoBehaviour
 
     }
 
-    public void FadeOut(int delay)
+    public void FadeOut(float delay, string sceneToTransition)
     {
         StopAllCoroutines();
 
         StartCoroutine(FadeOut(delay));
 
-        IEnumerator FadeOut(int delay)
+        IEnumerator FadeOut(float delay)
         {
             canvas.blocksRaycasts = true;
             canvas.interactable = true;
@@ -47,6 +62,14 @@ public class UITransitions : MonoBehaviour
             }
 
             yield return null;
+
+            if (!string.IsNullOrWhiteSpace(sceneToTransition))
+                UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(sceneToTransition).completed += OnLoadSceneComplete;
         }
+    }
+
+    private void OnLoadSceneComplete(AsyncOperation operation)
+    {
+        FadeIn(0.4f);
     }
 }
