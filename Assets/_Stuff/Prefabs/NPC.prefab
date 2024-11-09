@@ -208,13 +208,7 @@ MonoBehaviour:
   currentState: 0
   hungerMeter: 1
   cash: 0
-  bubble: {fileID: 7176354672227072885}
-  status:
-  - {fileID: 7145878964802049437, guid: 35e2631866a3dea4396042d98fd245f0, type: 3}
-  - {fileID: -5064873243018364556, guid: 7b49cda43a8806b40a973dc2289bbc49, type: 3}
-  - {fileID: -6877302646965611300, guid: fd5519e077d5f2d4b841cf33ce529b35, type: 3}
-  - {fileID: -3346649083491744409, guid: 59473acbc48480846942c4ac17889819, type: 3}
-  - {fileID: 9026114575482185840, guid: dc231dfd7e2a65140a0517b6aff6b720, type: 3}
+  bubble: {fileID: 3239934559505608588}
 --- !u!50 &6495138297130582051
 Rigidbody2D:
   serializedVersion: 5
@@ -299,6 +293,7 @@ GameObject:
   - component: {fileID: 8197837716798597234}
   - component: {fileID: 1814448096613602533}
   - component: {fileID: 7176354672227072885}
+  - component: {fileID: 3239934559505608588}
   m_Layer: 0
   m_Name: Speech
   m_TagString: Untagged
@@ -353,7 +348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6877302646965611300, guid: fd5519e077d5f2d4b841cf33ce529b35, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -363,3 +358,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &3239934559505608588
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766684155648966935}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea4fa441937e8a04fb1f58eab1c7dba4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

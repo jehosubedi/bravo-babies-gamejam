@@ -1,7 +1,6 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class AIController : MonoBehaviour
 {
@@ -11,8 +10,7 @@ public class AIController : MonoBehaviour
     public MobState currentState;
     public float hungerMeter = 1;
     public int cash;
-    public Image bubble;
-    public Sprite[] status;
+    public Animator bubble;
 
     bool buying = false;
     bool canBuy = true;
@@ -118,7 +116,7 @@ public class AIController : MonoBehaviour
         }
     }
 
-    private void ShowBubble(int status, float delay = 1.5f)
+    private void ShowBubble(int status, float delay = 1.5f,bool loop = false)
     {
         StopCoroutine(nameof(ShowBubble));
 
@@ -126,10 +124,12 @@ public class AIController : MonoBehaviour
 
         IEnumerator ShowBubble(int status)
         {
-            bubble.sprite = this.status[status];
             bubble.gameObject.SetActive(true);
+            bubble.SetInteger("AnimIndex", status);
+            Debug.Log(bubble.GetInteger("AnimIndex"));
             yield return new WaitForSeconds(delay);
-            bubble.gameObject.SetActive(false);
+            if(!loop)
+                bubble.gameObject.SetActive(false);
             yield return null;
         }
     }
@@ -149,6 +149,7 @@ public class AIController : MonoBehaviour
             {
                 targetVendor.TryGetComponent(out PlayerController p);
                 currentState = MobState.Queueing;
+                bubble.gameObject.SetActive(false);
                 p.Queue(this);
             }
         }

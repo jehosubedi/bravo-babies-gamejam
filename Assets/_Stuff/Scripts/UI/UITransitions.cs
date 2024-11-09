@@ -15,7 +15,7 @@ public class UITransitions : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            FadeIn(1.5f);
+            FadeIn(.8f);
         }
         else
             Destroy(gameObject);
