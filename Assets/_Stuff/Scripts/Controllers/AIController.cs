@@ -25,7 +25,7 @@ public class AIController : MonoBehaviour
     MobSpawnController spawnController;
     NavMeshAgent agent;
     float idleTime;
-    SpriteRenderer spriteRenderer;
+    Animator anim;
 
     private void Awake()
     {
@@ -33,12 +33,11 @@ public class AIController : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.speed = Random.Range(1.2f,3.5f);
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
-    public void Initialize(MobSpawnController controller, Transform destination, Transform origin, Sprite npcArt)
+    public void Initialize(MobSpawnController controller, Transform destination, Transform origin)
     {
-        spriteRenderer.sprite = npcArt;
         targetPOI = destination;
         originPOI = origin;
         spawnController = controller;
@@ -50,7 +49,7 @@ public class AIController : MonoBehaviour
         hungerMeter = Random.Range(0f,0.7f);
         col = GetComponent<BoxCollider2D>();
         idleTime = Random.Range(5, 8);
-
+        anim.SetInteger("NPC", Random.Range(0, 3));
     }
 
     private void Update()
@@ -65,10 +64,10 @@ public class AIController : MonoBehaviour
         switch (currentState)
         {
             case MobState.GoToVendor:
-                Debug.Log("Going to vendor");
+                agent.SetDestination(targetVendor.position);
+                agent.isStopped = false;
                 break;
             case MobState.WaitForVendor:
-                Debug.Log("Waiting for vendor");
                 break;
             case MobState.Stroll:
                 if (targetPOI == null)
@@ -79,7 +78,7 @@ public class AIController : MonoBehaviour
                 }
 
                 agent.SetDestination(targetPOI.position);
-                if((transform.position - targetPOI.position).magnitude < 1.2f)
+                if((transform.position - targetPOI.position).magnitude < 1.8f)
                 {
                     spawnController.PopNPC(gameObject);
                     Destroy(gameObject);
@@ -124,7 +123,7 @@ public class AIController : MonoBehaviour
                         MoodSwitch(defaultState);
                     break;
                 case MobState.Hungry:
-                    ShowBubble(1);
+                    ShowBubble(1, loop: true);
                     buying = true;
                     col.size = Vector2.one * 0.5f;
                     // Decide if going to follow the vendor or wait for the vendor
@@ -145,6 +144,10 @@ public class AIController : MonoBehaviour
                     buying = false;
                     satisfied = true;
                     satisfyDuration = Random.Range(5, 20);
+
+                    if (defaultState == MobState.Stroll && targetPOI != null)
+                        agent.SetDestination(targetPOI.position);
+
                     MoodSwitch(defaultState);
                     // Go back to previous state and increase hunger meter
                     break;
@@ -178,7 +181,6 @@ public class AIController : MonoBehaviour
         {
             bubble.gameObject.SetActive(true);
             bubble.SetInteger("AnimIndex", status);
-            Debug.Log(bubble.GetInteger("AnimIndex"));
             yield return new WaitForSeconds(delay);
             if(!loop)
                 bubble.gameObject.SetActive(false);

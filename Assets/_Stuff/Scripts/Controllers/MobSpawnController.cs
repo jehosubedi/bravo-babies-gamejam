@@ -21,7 +21,7 @@ public class MobSpawnController : MonoBehaviour
             var go = Instantiate(mobPrefab, spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position, Quaternion.identity);
             if (destination == origin && destination != null)
                 destination = null;
-            go.GetComponent<AIController>().Initialize(this, destination, origin, npcSprites[Random.Range(0,npcSprites.Length)]);
+            go.GetComponent<AIController>().Initialize(this, destination, origin);
             npcList.Add(go);
         }
 
@@ -37,7 +37,7 @@ public class MobSpawnController : MonoBehaviour
             var go = Instantiate(mobPrefab, spawnPoints[Random.Range(0,spawnPoints.Length)].transform.position, Quaternion.identity);
             if (destination == origin && destination != null)
                 destination = null;
-            go.GetComponent<AIController>().Initialize(this, destination, origin, npcSprites[Random.Range(0, npcSprites.Length)]);
+            go.GetComponent<AIController>().Initialize(this, destination, origin);
             npcList.Add(go);
         }
 
