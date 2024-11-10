@@ -5,6 +5,8 @@ public class PlayerController : MonoBehaviour
 {
     public VirtualJoystick joystick;
     public float movementSpeed = 8;
+    public GameObject modal;
+    public TahoController tahoController;
 
     Rigidbody2D rb;
     Vector2 inputVector;
@@ -36,15 +38,21 @@ public class PlayerController : MonoBehaviour
             cam.ToggleOffset(true);
             queued = true;
             inputVector = Vector2.zero;
+            modal.SetActive(true);
+            tahoController.AddOrder(storeQueue.Count);
         }
 
         return queued;
     }
 
-    public void Fulfill(AIController target)
+    public void Fulfill(/*AIController target*/)
     {
-        storeQueue.Remove(target);
+        storeQueue.Remove(storeQueue[storeQueue.Count-1]);
+        tahoController.AddOrder(storeQueue.Count);
         if (storeQueue.Count == 0)
+        {
             cam.ToggleOffset(false);
+            modal.SetActive(false);
+        }
     }
 }

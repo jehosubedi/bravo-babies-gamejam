@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2bb78b592d839194eadec5549a725335
+guid: a3018d76b375b594799e89ac732594ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9009192115898094680
-    second: Peso_0
+      213: 7566257785267386098
+    second: taho_idle-ezgif.com-gif-to-sprite-converter_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Peso_0
+      name: taho_idle-ezgif.com-gif-to-sprite-converter_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 300
-        height: 277
+        width: 160
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8abe4aad08be8f280800000000000000
-      internalID: -9009192115898094680
+      spriteID: 2f675e13e5fb00960800000000000000
+      internalID: 7566257785267386098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taho_idle-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dc6657388afe744bd4488dba924b1e
+      internalID: -1035069062
       vertices: []
       indices: 
       edges: []
@@ -138,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 9f451b96a6731524a81418d48eb1b31a
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +170,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Peso_0: -9009192115898094680
+      taho_idle-ezgif.com-gif-to-sprite-converter_0: 7566257785267386098
+      taho_idle-ezgif.com-gif-to-sprite-converter_1: -1152998881
+      taho_idle-ezgif.com-gif-to-sprite-converter_2: -1035069062
+      taho_idle-ezgif.com-gif-to-sprite-converter_3: -1795521180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

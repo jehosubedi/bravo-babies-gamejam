@@ -45,7 +45,7 @@ public class AIController : MonoBehaviour
         if (targetPOI != null && currentState != MobState.Stroll)
             currentState = MobState.Stroll;
         defaultState = currentState;
-        cash = Random.Range(0, 20);
+        cash = Random.Range(0, 75);
         hungerMeter = Random.Range(0f,0.7f);
         col = GetComponent<BoxCollider2D>();
         idleTime = Random.Range(5, 8);
@@ -115,7 +115,7 @@ public class AIController : MonoBehaviour
                     float r = Random.Range(2, 5);
                     ShowBubble(0,r);
                     yield return new WaitForSeconds(r);
-                    if (cash > 5 && hungerMeter <= 0.25)
+                    if (cash > 15 && hungerMeter <= 0.25)
                         MoodSwitch(MobState.Hungry);
                     else if (cash < 5)
                         MoodSwitch(MobState.Cashless);
