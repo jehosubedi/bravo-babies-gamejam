@@ -1,0 +1,2052 @@
+fileFormatVersion: 2
+guid: ed6aef7541f125140a2c8f000b17dfc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8891180011573125036
+    second: assets_0
+  - first:
+      213: -1687144669380700377
+    second: assets_1
+  - first:
+      213: -2892819179972619951
+    second: assets_2
+  - first:
+      213: 4748470198486955293
+    second: assets_3
+  - first:
+      213: 7488974563240590749
+    second: assets_4
+  - first:
+      213: 8525114657413556256
+    second: assets_5
+  - first:
+      213: -7264972599485739828
+    second: assets_6
+  - first:
+      213: -8918686826913355892
+    second: assets_7
+  - first:
+      213: 4754003520139017589
+    second: assets_8
+  - first:
+      213: 5936484407812813961
+    second: assets_9
+  - first:
+      213: -1894586206897897056
+    second: assets_10
+  - first:
+      213: -7292218540346254485
+    second: assets_11
+  - first:
+      213: -5815258922555547143
+    second: assets_12
+  - first:
+      213: 1117785621467319695
+    second: assets_13
+  - first:
+      213: -3233622716010706100
+    second: assets_14
+  - first:
+      213: 4586509288191203383
+    second: assets_15
+  - first:
+      213: -2749400686785193575
+    second: assets_16
+  - first:
+      213: 8174065977163648622
+    second: assets_17
+  - first:
+      213: -7883116718873341320
+    second: assets_18
+  - first:
+      213: -7675683435551358985
+    second: assets_19
+  - first:
+      213: 2294875281737074965
+    second: assets_20
+  - first:
+      213: 6385493693167813659
+    second: assets_21
+  - first:
+      213: 8984055213858708834
+    second: assets_22
+  - first:
+      213: -5101693136794555330
+    second: assets_23
+  - first:
+      213: 631013516088295862
+    second: assets_24
+  - first:
+      213: 7477563620489441435
+    second: assets_25
+  - first:
+      213: -1214459563456978308
+    second: assets_26
+  - first:
+      213: -8699127157851137378
+    second: assets_27
+  - first:
+      213: 4080682328783479046
+    second: assets_28
+  - first:
+      213: 1453177153994735749
+    second: assets_29
+  - first:
+      213: 9111012582116810707
+    second: assets_30
+  - first:
+      213: 7694684578776676988
+    second: assets_31
+  - first:
+      213: 4541617381640706555
+    second: assets_32
+  - first:
+      213: 5441271937632130859
+    second: assets_33
+  - first:
+      213: 4909493753583609424
+    second: assets_34
+  - first:
+      213: -8240516499172150960
+    second: assets_35
+  - first:
+      213: 3915636086286706072
+    second: assets_36
+  - first:
+      213: -5848276689869236708
+    second: assets_37
+  - first:
+      213: -4749915754956359803
+    second: assets_38
+  - first:
+      213: 1728529523347605555
+    second: assets_39
+  - first:
+      213: -2462284160057506267
+    second: assets_40
+  - first:
+      213: -3257250758006825613
+    second: assets_41
+  - first:
+      213: -4475571513515055307
+    second: assets_42
+  - first:
+      213: -5476435156241571175
+    second: assets_43
+  - first:
+      213: 8881568176456893032
+    second: assets_44
+  - first:
+      213: -6619726494437755642
+    second: assets_45
+  - first:
+      213: -7267550344088651874
+    second: assets_46
+  - first:
+      213: 2025497705009391418
+    second: assets_47
+  - first:
+      213: 3374074446391795636
+    second: assets_48
+  - first:
+      213: 5587722799419507660
+    second: assets_49
+  - first:
+      213: -8247669302193286178
+    second: assets_50
+  - first:
+      213: 4275599865835807717
+    second: assets_51
+  - first:
+      213: -8627831150849394177
+    second: assets_52
+  - first:
+      213: -80624926629056056
+    second: assets_53
+  - first:
+      213: -2780062045501210846
+    second: assets_54
+  - first:
+      213: -2563716635383195713
+    second: assets_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Small_House
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 928
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57db7d6830d99f140800000000000000
+      internalID: 4754003520139017589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny_House
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 928
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984f356bd11a26250800000000000000
+      internalID: 5936484407812813961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store_House
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 864
+        width: 112
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a10f7df1e315b5e0800000000000000
+      internalID: -1894586206897897056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 960
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bd4269fd5dcca90800000000000000
+      internalID: -7292218540346254485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_House
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 864
+        width: 80
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1e72c02dc0c4fa0800000000000000
+      internalID: -5815258922555547143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nando_Front
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2a064ca0fa46d4093b1d62d2efcc47
+      internalID: 892417912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nando_Left
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 768
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1054a919513b7cc42a37ee514687705d
+      internalID: 1256095542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nando_Right
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d5f24405b0a8d4e837e08bd83154e2
+      internalID: 394221975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nando_Back
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 768
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf030b66b830de345ad475761b047183
+      internalID: -1068924740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_happyF
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c862d7ad46123ba44a6b73bd0610e367
+      internalID: -746952468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_happyL
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b5b84c56d3cb648bf31929177872aa
+      internalID: -111840067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_happyR
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a197cd5a5b1574095a32f2d909f387
+      internalID: -429931926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_happyB
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573ae7b64a9d83948a79b604632d5836
+      internalID: 384949267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_idleF
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c5496e901dea74abad2bf61f863973
+      internalID: -332867090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_idleL
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7837e725486033549a6dff15c48c8b34
+      internalID: 1467329150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_idleR
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3f024485c9e00499bb04539b341a09
+      internalID: -1383088302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_idleB
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210ec09374dd79a4daa69d9ca9cd0849
+      internalID: -1390809842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_sadF
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534ca98d5aee1614285d334316e9465b
+      internalID: 1026883375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_sadL
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cf711f4194ae24c87e27c44b016d4e
+      internalID: 1807716374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_sadR
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8187348cce26e674a84b49c755fd2427
+      internalID: -424508253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_sadB
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da6789b12c38314ca6856b00cff56c7
+      internalID: -447857974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_angryF
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa06238f3bd77034eba6b9f57098e2f2
+      internalID: -1295735040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_angryL
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777e7dea9e2a22a44a3e9dc7734f749d
+      internalID: -399636239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_angryR
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492c07fda2ed712438b6ca761ae94e3e
+      internalID: -1284538768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_angryB
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5e55a1da8bd2c438a03caecbecd21a
+      internalID: 1792226750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_happyF
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e472361b7d71f449bd09bf91223295
+      internalID: 565675274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_happyL
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7d8427cabd2a949b643626a43c6742
+      internalID: 303604660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_happyR
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12435e1ba5aecd641b1ea0128c1baf6e
+      internalID: -38668230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_happyB
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeb42c23badf954c947abc2162735cd
+      internalID: 1049239037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idleF
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d8674dd8e68af41b54f0b71aec01a6
+      internalID: 1928743599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idleL
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f44c9e7ab751a46a2241e1760e5543
+      internalID: -586336429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idleR
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee2ed6a2403b4f45b9a11ced8517e7f
+      internalID: 1117191522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_idleB
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e2763e036c05c46a4c995ae43cb111
+      internalID: -1055963699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_sadF
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b282c2cafe0e9be4c87998343f8d4b03
+      internalID: -1557823825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_sadL
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7c621d4a1b91c4badd97d337dbc405
+      internalID: 105346061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_sadR
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3fd8b7891008f48946b6aae3d36e16
+      internalID: -135306182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_sadB
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b7ecee589908d49ba5ced881ef6336
+      internalID: -727084263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_angryF
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be83d8ecde4f4ff438b3fdff2ebc60f9
+      internalID: -1132197081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_angryL
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5408f1f518cddc54582638dcb742c546
+      internalID: -714376518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_angryR
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5400a216c71f64cbaf95777751d0b7
+      internalID: -732848151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_angryB
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1994749f12771384bbb21e702d040ccd
+      internalID: -130177191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_happyF
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53fd33ff46955742b22957d783cb4ee
+      internalID: -1976145354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_happyL
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74833fafe34b844685ee2429565e53a
+      internalID: -505895026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_happyR
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b559fa7ebf91042b7f594dc0e87175
+      internalID: -1912936354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_happyB
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab77f5f14129b44aa3332c275e2b437
+      internalID: 1393071963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_idleF
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ec40f889fd803419eb1085a45c4484
+      internalID: -288341179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_idleL
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbd99ed5fcc93d4d9d15175e361b233
+      internalID: -1973754286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_idleR
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ae8bd4ba8618d42b3317cb4a38f674
+      internalID: 1229866898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_idleB
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c303dbd21748c44eb45fa79368b0aa1
+      internalID: 1529991359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_sadF
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f08f38db802f4f4f929a0837a0197fb
+      internalID: 1942114962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_sadL
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d411f86360f1d1f46bb48120aa961024
+      internalID: 508772027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_sadR
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc29eb2f1e81c3143ba4584d549bab02
+      internalID: -1758391964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_sadB
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb5f1be8acaa2344b64c16b19dc9750
+      internalID: -1327537151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_angryF
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ca73f042f851478ab064cc8a80976
+      internalID: 1623697212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_angryL
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651460872f6ad0f4c8fe7638fedb6bb2
+      internalID: 769714847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_angryR
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c98acfd620652418cf69d31fe7d2f3
+      internalID: -700970565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_angryB
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecee03713513124ca31090b57f62643
+      internalID: -911542742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d3a1e8a51ff2d004b97749c4259db22a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big_House: -5815258922555547143
+      Nando_Back: -1068924740
+      Nando_Front: 892417912
+      Nando_Left: 1256095542
+      Nando_Right: 394221975
+      Small_House: 4754003520139017589
+      Store: -7292218540346254485
+      Store_House: -1894586206897897056
+      Tiny_House: 5936484407812813961
+      assets_0: 8891180011573125036
+      assets_1: -1687144669380700377
+      assets_100: 158191211
+      assets_101: 299473064
+      assets_102: 1598031167
+      assets_103: -921479214
+      assets_104: -169266474
+      assets_105: -1167812872
+      assets_106: 971366594
+      assets_107: 1126865012
+      assets_108: 1081525418
+      assets_109: -545440603
+      assets_110: -1667108086
+      assets_111: 23483661
+      assets_112: -1488440303
+      assets_113: -1219272611
+      assets_114: 2091189003
+      assets_115: 1315335086
+      assets_116: 6804462
+      assets_117: 1820203627
+      assets_118: -269203591
+      assets_119: -1939464348
+      assets_120: -1257254695
+      assets_121: 1010184956
+      assets_122: 1317607044
+      assets_123: 696205871
+      assets_124: 1977022694
+      assets_125: 1191433922
+      assets_126: -1915097736
+      assets_127: 1291923987
+      assets_128: 838214015
+      assets_129: 1655503822
+      assets_13: 1117785621467319695
+      assets_130: -1781314276
+      assets_131: -328618807
+      assets_132: 1394937294
+      assets_133: 1938858852
+      assets_134: 1482683468
+      assets_135: 1647706292
+      assets_136: 816825845
+      assets_137: -1449684212
+      assets_138: 664219010
+      assets_139: -149236864
+      assets_14: -3233622716010706100
+      assets_140: -93617440
+      assets_141: 1161543329
+      assets_142: -417846719
+      assets_143: -1495827211
+      assets_144: -1671385742
+      assets_145: -1184716559
+      assets_146: -338748357
+      assets_147: 371376748
+      assets_148: 1520444925
+      assets_149: -87653207
+      assets_15: 4586509288191203383
+      assets_150: -765193406
+      assets_151: 1353081643
+      assets_152: -400498302
+      assets_153: -345503324
+      assets_154: 290402688
+      assets_155: 530897947
+      assets_156: -79812174
+      assets_157: 1486168831
+      assets_158: 228158352
+      assets_159: -966063532
+      assets_16: -2749400686785193575
+      assets_160: -196778467
+      assets_161: 1060115748
+      assets_162: 94714258
+      assets_163: 2065282105
+      assets_164: 1674738532
+      assets_165: -1196021532
+      assets_166: -893235627
+      assets_167: 924616245
+      assets_168: 37917779
+      assets_169: -1663115979
+      assets_17: 8174065977163648622
+      assets_170: -1945950294
+      assets_171: 833439682
+      assets_172: -2089036315
+      assets_173: 1789706557
+      assets_174: -389646900
+      assets_175: 1617042156
+      assets_176: -580019043
+      assets_177: 1411026758
+      assets_178: 1196281093
+      assets_179: 1090545174
+      assets_18: -7883116718873341320
+      assets_180: 784394668
+      assets_181: -747116122
+      assets_182: 1270112223
+      assets_183: -863137141
+      assets_184: 178652009
+      assets_185: -1404169858
+      assets_186: 1341957114
+      assets_187: -1103520536
+      assets_188: -1940104554
+      assets_189: 1668991413
+      assets_19: -7675683435551358985
+      assets_190: 486364955
+      assets_191: 442452254
+      assets_192: -760775762
+      assets_193: -1145646514
+      assets_194: -516143696
+      assets_195: -1387976006
+      assets_196: 2081820767
+      assets_197: 881664033
+      assets_198: 1355182333
+      assets_199: 842076060
+      assets_2: -2892819179972619951
+      assets_20: 2294875281737074965
+      assets_200: -443249377
+      assets_201: -1308627670
+      assets_202: -2112233299
+      assets_203: -115525558
+      assets_204: -24871059
+      assets_205: 1727648100
+      assets_206: -1552523587
+      assets_208: 1452007513
+      assets_209: -1556714274
+      assets_21: 6385493693167813659
+      assets_215: -1287166697
+      assets_216: -1169042003
+      assets_217: 1394132407
+      assets_218: 276372747
+      assets_219: 1239038259
+      assets_22: 8984055213858708834
+      assets_220: -421175360
+      assets_221: -83231722
+      assets_222: -708195033
+      assets_223: 1744549145
+      assets_224: 2084937250
+      assets_225: -2062070702
+      assets_226: -111574
+      assets_227: 1362602862
+      assets_229: -34290273
+      assets_23: -5101693136794555330
+      assets_231: -488963779
+      assets_232: -656530404
+      assets_233: -35921924
+      assets_234: -681282824
+      assets_235: -696567538
+      assets_236: 1525987258
+      assets_237: 881591277
+      assets_238: -1467880953
+      assets_239: -2015686353
+      assets_24: 631013516088295862
+      assets_240: 116370442
+      assets_241: 472535900
+      assets_242: 725037679
+      assets_243: 1317545984
+      assets_244: -1572015296
+      assets_245: -385205836
+      assets_246: -276822749
+      assets_247: 544750821
+      assets_248: 1681860384
+      assets_249: -22775802
+      assets_25: 7477563620489441435
+      assets_250: -993429306
+      assets_251: 957230231
+      assets_252: 569257328
+      assets_253: -2060404252
+      assets_254: 1982399171
+      assets_255: -133502241
+      assets_256: 156631651
+      assets_257: 725919209
+      assets_258: -1354061274
+      assets_259: 193060596
+      assets_26: -1214459563456978308
+      assets_260: -861066285
+      assets_261: -1851902895
+      assets_265: -595709951
+      assets_269: -837138565
+      assets_27: -8699127157851137378
+      assets_270: -154998357
+      assets_271: -1032240788
+      assets_272: 22201402
+      assets_274: -2030292186
+      assets_276: -332805785
+      assets_277: -235078745
+      assets_278: 417370763
+      assets_28: 4080682328783479046
+      assets_282: -1788362599
+      assets_283: -639681684
+      assets_284: 1581695402
+      assets_285: -1899931065
+      assets_286: -1161644447
+      assets_288: 2140045142
+      assets_29: 1453177153994735749
+      assets_291: -1697852563
+      assets_293: 1710342476
+      assets_294: -487192291
+      assets_295: 665970996
+      assets_296: -1100074676
+      assets_297: -1381492533
+      assets_298: 1118000729
+      assets_299: 1416707566
+      assets_3: 4748470198486955293
+      assets_30: 9111012582116810707
+      assets_300: 1217601332
+      assets_301: -157532375
+      assets_302: -580222059
+      assets_303: -1380868188
+      assets_304: -1587007661
+      assets_305: -661503269
+      assets_306: 1468279293
+      assets_307: 624756320
+      assets_308: 2136095434
+      assets_309: -1091848570
+      assets_31: 7694684578776676988
+      assets_310: 931983352
+      assets_311: 1280852237
+      assets_312: -385268205
+      assets_313: -80308837
+      assets_314: -1146469290
+      assets_315: -1502832055
+      assets_316: -1648156301
+      assets_317: 1031498
+      assets_318: -1318240042
+      assets_319: -410015289
+      assets_32: 4541617381640706555
+      assets_320: 587050583
+      assets_322: -1178972127
+      assets_325: -113704217
+      assets_327: 800906498
+      assets_329: 1383149689
+      assets_33: 5441271937632130859
+      assets_332: -988573388
+      assets_334: 255196840
+      assets_336: 1951103398
+      assets_339: -224095989
+      assets_34: 4909493753583609424
+      assets_341: 243774273
+      assets_343: 332918179
+      assets_346: -1483724863
+      assets_348: -581931458
+      assets_349: -1043905204
+      assets_35: -8240516499172150960
+      assets_350: -1185092708
+      assets_351: 2121269508
+      assets_352: 70879333
+      assets_353: 1471150491
+      assets_354: 405391024
+      assets_355: 1464565568
+      assets_356: 1183147020
+      assets_357: 1671368667
+      assets_358: 971280082
+      assets_359: -556387563
+      assets_36: 3915636086286706072
+      assets_360: -1161809973
+      assets_361: 368459647
+      assets_362: 1734244420
+      assets_363: -1647969340
+      assets_364: -249781266
+      assets_365: 2108757779
+      assets_366: -243684348
+      assets_367: -844349070
+      assets_368: -260286278
+      assets_369: 547316061
+      assets_37: -5848276689869236708
+      assets_370: 342594245
+      assets_371: 1623239374
+      assets_372: -1886261246
+      assets_373: -632633511
+      assets_374: 1385479686
+      assets_375: -1424449217
+      assets_376: 1196358840
+      assets_377: 1185835862
+      assets_378: 405405427
+      assets_379: -1905965916
+      assets_38: -4749915754956359803
+      assets_380: -2023371098
+      assets_381: 104847101
+      assets_383: -2067919005
+      assets_386: 509760640
+      assets_388: 356016413
+      assets_39: 1728529523347605555
+      assets_390: -2061399981
+      assets_393: -80100973
+      assets_395: 590594421
+      assets_397: 625261141
+      assets_4: 7488974563240590749
+      assets_40: -2462284160057506267
+      assets_400: 317794470
+      assets_402: 2070267038
+      assets_404: 789271572
+      assets_407: -500603027
+      assets_409: 956424231
+      assets_41: -3257250758006825613
+      assets_410: -1689197035
+      assets_411: 814457047
+      assets_412: -754389050
+      assets_413: 1914723262
+      assets_414: 1575208219
+      assets_415: 1135121477
+      assets_416: 1027859282
+      assets_417: 108393075
+      assets_418: -9115275
+      assets_419: 1213966924
+      assets_42: -4475571513515055307
+      assets_420: 437615594
+      assets_421: -152355175
+      assets_422: -283363283
+      assets_423: 1179090519
+      assets_424: -87326719
+      assets_425: 383202486
+      assets_426: -1737370598
+      assets_427: -1582948861
+      assets_428: 342475904
+      assets_429: 639789002
+      assets_43: -5476435156241571175
+      assets_430: 388406957
+      assets_431: -556637643
+      assets_432: -895052804
+      assets_433: 1236741090
+      assets_434: 1668799702
+      assets_435: 970469150
+      assets_436: 316423535
+      assets_437: 1637156793
+      assets_438: -1304898761
+      assets_439: 1661454521
+      assets_44: 8881568176456893032
+      assets_441: -1387166493
+      assets_444: 2015912453
+      assets_446: -2028080611
+      assets_448: -1495265317
+      assets_45: -6619726494437755642
+      assets_451: -766889572
+      assets_453: 166026677
+      assets_455: 1493324131
+      assets_458: 1810520142
+      assets_46: -7267550344088651874
+      assets_460: 129120254
+      assets_462: -1778645182
+      assets_465: 2017017856
+      assets_467: 1996672892
+      assets_468: 269287040
+      assets_469: 869815373
+      assets_47: 2025497705009391418
+      assets_470: -68575618
+      assets_471: -488262780
+      assets_472: -9453864
+      assets_473: -1027298822
+      assets_474: 159150015
+      assets_475: -891933948
+      assets_476: 678781805
+      assets_477: 1545169194
+      assets_478: -331467409
+      assets_479: 105484128
+      assets_48: 3374074446391795636
+      assets_480: 708932379
+      assets_481: 380254718
+      assets_482: -395097816
+      assets_483: -511286866
+      assets_484: -844624275
+      assets_485: 332264264
+      assets_486: -1654657074
+      assets_487: 1191431043
+      assets_488: -1358771709
+      assets_489: 621442311
+      assets_49: 5587722799419507660
+      assets_490: 1243335902
+      assets_491: -1175828318
+      assets_492: -1824627508
+      assets_493: 2084436723
+      assets_494: -1991906189
+      assets_495: -415434854
+      assets_496: 502501440
+      assets_497: 600105491
+      assets_498: 378830931
+      assets_499: 363530
+      assets_5: 8525114657413556256
+      assets_50: -8247669302193286178
+      assets_500: -1370774815
+      assets_501: 1233999411
+      assets_502: 933697704
+      assets_51: 4275599865835807717
+      assets_52: -8627831150849394177
+      assets_53: -80624926629056056
+      assets_54: -2780062045501210846
+      assets_55: -2563716635383195713
+      assets_56: 1509454697
+      assets_57: -1059296661
+      assets_58: 360930020
+      assets_59: 327849100
+      assets_6: -7264972599485739828
+      assets_60: 1974410197
+      assets_61: -1693632440
+      assets_62: -1815193270
+      assets_63: -931367638
+      assets_64: -870196088
+      assets_65: -151730606
+      assets_66: 1166169356
+      assets_67: 1953168139
+      assets_68: -127942980
+      assets_69: 32653437
+      assets_7: -8918686826913355892
+      assets_70: 1413622814
+      assets_71: -79054529
+      assets_72: -42178582
+      assets_73: -499668352
+      assets_74: 1312338396
+      assets_75: 21488780
+      assets_76: 869901515
+      assets_77: -705376864
+      assets_78: 793550600
+      assets_79: 1999893907
+      assets_80: -706618128
+      assets_81: -1419861893
+      assets_82: -237277638
+      assets_83: 1232478666
+      assets_84: 1937285036
+      assets_85: -1268573677
+      assets_86: 191435040
+      assets_87: 820246423
+      assets_88: -643411521
+      assets_89: 1793960758
+      assets_90: -643417513
+      assets_91: 367145765
+      assets_92: -1205588712
+      assets_93: 1780091627
+      assets_94: -842217479
+      assets_95: 985755096
+      assets_96: -1174001198
+      assets_97: 1407062073
+      assets_98: 1574690903
+      assets_99: -1214736456
+      blue_angryB: -911542742
+      blue_angryF: 1623697212
+      blue_angryL: 769714847
+      blue_angryR: -700970565
+      blue_happyB: 1393071963
+      blue_happyF: -1976145354
+      blue_happyL: -505895026
+      blue_happyR: -1912936354
+      blue_idleB: 1529991359
+      blue_idleF: -288341179
+      blue_idleL: -1973754286
+      blue_idleR: 1229866898
+      blue_sadB: -1327537151
+      blue_sadF: 1942114962
+      blue_sadL: 508772027
+      blue_sadR: -1758391964
+      drainage: 141647264
+      drainage_dark: -841326699
+      drainage_light: -499213611
+      purple_angryB: 1792226750
+      purple_angryF: -1295735040
+      purple_angryL: -399636239
+      purple_angryR: -1284538768
+      purple_happyB: 384949267
+      purple_happyF: -746952468
+      purple_happyL: -111840067
+      purple_happyR: -429931926
+      purple_idleB: -1390809842
+      purple_idleF: -332867090
+      purple_idleL: 1467329150
+      purple_idleR: -1383088302
+      purple_sadB: -447857974
+      purple_sadF: 1026883375
+      purple_sadL: 1807716374
+      purple_sadR: -424508253
+      red_angryB: -130177191
+      red_angryF: -1132197081
+      red_angryL: -714376518
+      red_angryR: -732848151
+      red_happyB: 1049239037
+      red_happyF: 565675274
+      red_happyL: 303604660
+      red_happyR: -38668230
+      red_idleB: -1055963699
+      red_idleF: 1928743599
+      red_idleL: -586336429
+      red_idleR: 1117191522
+      red_sadB: -727084263
+      red_sadF: -1557823825
+      red_sadL: 105346061
+      red_sadR: -135306182
+      road_bottom: 946492317
+      road_bottomLeft: -278637927
+      road_bottomRight: 1414123194
+      road_inner: -168008887
+      road_innerCorner: -2061297139
+      road_left: 213399167
+      road_middle: 1006542354
+      road_outsideCorner: 1080184360
+      road_pedestrian: -1813192143
+      road_right: 98384363
+      road_top: 1704791274
+      road_topLeft: -1953637637
+      road_topRight: -441161854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

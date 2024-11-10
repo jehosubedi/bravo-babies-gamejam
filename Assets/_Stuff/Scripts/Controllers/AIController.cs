@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AIController : MonoBehaviour
 {
@@ -10,23 +11,46 @@ public class AIController : MonoBehaviour
     public MobState currentState;
     public float hungerMeter = 1;
     public int cash;
-    public Animator bubble;
+    public Animator bubble; 
 
     bool buying = false;
     bool canBuy = true;
     bool satisfied = false;
     float satisfyDuration;
     Transform targetVendor;
+    Transform targetPOI;
+    Transform originPOI;
     MobState defaultState;
     BoxCollider2D col;
+    MobSpawnController spawnController;
+    NavMeshAgent agent;
+    float idleTime;
+    SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+        agent.speed = Random.Range(1.2f,3.5f);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    public void Initialize(MobSpawnController controller, Transform destination, Transform origin, Sprite npcArt)
+    {
+        spriteRenderer.sprite = npcArt;
+        targetPOI = destination;
+        originPOI = origin;
+        spawnController = controller;
         currentState = (MobState)Random.Range(0, 2);
+        if (targetPOI != null && currentState != MobState.Stroll)
+            currentState = MobState.Stroll;
         defaultState = currentState;
         cash = Random.Range(0, 20);
-        hungerMeter = Random.value;
+        hungerMeter = Random.Range(0f,0.7f);
         col = GetComponent<BoxCollider2D>();
+        idleTime = Random.Range(5, 8);
+
     }
 
     private void Update()
@@ -46,6 +70,31 @@ public class AIController : MonoBehaviour
             case MobState.WaitForVendor:
                 Debug.Log("Waiting for vendor");
                 break;
+            case MobState.Stroll:
+                if (targetPOI == null)
+                {
+                    defaultState = MobState.Idle;
+                    MoodSwitch(MobState.Idle);
+                    return;
+                }
+
+                agent.SetDestination(targetPOI.position);
+                if((transform.position - targetPOI.position).magnitude < 1.2f)
+                {
+                    spawnController.PopNPC(gameObject);
+                    Destroy(gameObject);
+                }
+                break;
+            case MobState.Idle:
+                if (idleTime > 0)
+                    idleTime -= Time.deltaTime;
+                else
+                {
+                    spawnController.PopNPC(gameObject);
+                    Destroy(gameObject);
+                }
+
+                break;
         }
     }
 
@@ -62,6 +111,8 @@ public class AIController : MonoBehaviour
             switch (state)
             {
                 case MobState.Contemplating:
+                    if(agent != null)
+                        agent.isStopped = true;
                     float r = Random.Range(2, 5);
                     ShowBubble(0,r);
                     yield return new WaitForSeconds(r);
@@ -75,7 +126,7 @@ public class AIController : MonoBehaviour
                 case MobState.Hungry:
                     ShowBubble(1);
                     buying = true;
-                    col.size = Vector2.one * 3;
+                    col.size = Vector2.one * 0.5f;
                     // Decide if going to follow the vendor or wait for the vendor
                     if (Random.value > .5)
                         MoodSwitch(MobState.GoToVendor);
@@ -89,7 +140,7 @@ public class AIController : MonoBehaviour
                     MoodSwitch(defaultState);
                     // Go back to previous state and disable function for buying
                     break;
-                case MobState.Satisfied:
+                case MobState.Satisfied:  /// UPDATE DESTINATION HERE AND THE STATE
                     ShowBubble(3);
                     buying = false;
                     satisfied = true;
@@ -108,6 +159,7 @@ public class AIController : MonoBehaviour
                     targetVendor = null;
                     break;
                 case MobState.Stroll:
+                    agent.isStopped = false;
                     targetVendor = null;
                     break;
             }
