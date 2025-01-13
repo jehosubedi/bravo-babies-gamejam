@@ -17,11 +17,9 @@ public class MobSpawnController : MonoBehaviour
         for (int i = 0;i < Random.Range(5, mobLimit);i++)
         {
             var origin = spawnPoints[Random.Range(0, spawnPoints.Length)];
-            var destination = Random.value > .5 ? spawnPoints[Random.Range(0, spawnPoints.Length)].transform : null;
+            var destination = Random.value > .5 ? spawnPoints[Random.Range(0, spawnPoints.Length)].transform : origin;
             var go = Instantiate(mobPrefab, spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position, Quaternion.identity);
-            if (destination == origin && destination != null)
-                destination = null;
-            go.GetComponent<AIController>().Initialize(this, destination, origin);
+            go.GetComponent<AIController>().Initialize(this, destination, origin, npcSprites[Random.Range(0, npcSprites.Length)]);
             npcList.Add(go);
         }
 
@@ -33,11 +31,9 @@ public class MobSpawnController : MonoBehaviour
         if(npcList.Count < mobLimit)
         {
             var origin = spawnPoints[Random.Range(0, spawnPoints.Length)];
-            var destination = Random.value > .5 ? spawnPoints[Random.Range(0, spawnPoints.Length)].transform : null;
+            var destination = Random.value > .5 ? spawnPoints[Random.Range(0, spawnPoints.Length)].transform : origin;
             var go = Instantiate(mobPrefab, spawnPoints[Random.Range(0,spawnPoints.Length)].transform.position, Quaternion.identity);
-            if (destination == origin && destination != null)
-                destination = null;
-            go.GetComponent<AIController>().Initialize(this, destination, origin);
+            go.GetComponent<AIController>().Initialize(this, destination, origin, npcSprites[Random.Range(0, npcSprites.Length)]);
             npcList.Add(go);
         }
 
@@ -47,5 +43,14 @@ public class MobSpawnController : MonoBehaviour
     public void PopNPC(GameObject npc)
     {
         npcList.Remove(npc);
+    }
+    
+    public void EndFunction()
+    {
+        CancelInvoke(nameof(TrySpawnNPC));
+        for (int i = 0; i < npcList.Count; i++)
+        {
+            Destroy(npcList[i]);
+        }
     }
 }

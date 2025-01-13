@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 31fb8e351d5d49240998ff3f5e3566d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9147044706525625827
+    second: Pawns_0
+  - first:
+      213: -3899412316454941700
+    second: Pawns_1
+  - first:
+      213: -1412168200605094065
+    second: Pawns_2
+  - first:
+      213: -3585572222226183211
+    second: Pawns_3
+  - first:
+      213: -4269726411046666520
+    second: Pawns_4
+  - first:
+      213: 1093448641089013978
+    second: Pawns_5
+  - first:
+      213: -5177450480872794075
+    second: Pawns_6
+  - first:
+      213: -4158100614494596984
+    second: Pawns_7
+  - first:
+      213: -320080869994697978
+    second: Pawns_8
+  - first:
+      213: -8107275420959054636
+    second: Pawns_9
+  - first:
+      213: 8963934425511223364
+    second: Pawns_10
+  - first:
+      213: -6696420162939522378
+    second: Pawns_11
+  - first:
+      213: 101956952302030487
+    second: Pawns_12
+  - first:
+      213: -3045913829889338267
+    second: Pawns_13
+  - first:
+      213: 1569724245407713524
+    second: Pawns_14
+  - first:
+      213: -106542504854643220
+    second: Pawns_15
+  - first:
+      213: -3000223083972711853
+    second: Pawns_16
+  - first:
+      213: -2298763840141871522
+    second: Pawns_17
+  - first:
+      213: -2007351779438335571
+    second: Pawns_18
+  - first:
+      213: 4511905611506777842
+    second: Pawns_19
+  - first:
+      213: -2699936682026810347
+    second: Pawns_20
+  - first:
+      213: -7948800354877166245
+    second: Pawns_21
+  - first:
+      213: 4217738378132097269
+    second: Pawns_22
+  - first:
+      213: -2124504863888452123
+    second: Pawns_23
+  - first:
+      213: 3073901402900081501
+    second: Pawns_24
+  - first:
+      213: 6684450515530088480
+    second: Pawns_25
+  - first:
+      213: 7177084299185755761
+    second: Pawns_26
+  - first:
+      213: 7764847692894572010
+    second: Pawns_27
+  - first:
+      213: -3276207767710042385
+    second: Pawns_28
+  - first:
+      213: -9136015645012061911
+    second: Pawns_29
+  - first:
+      213: 8272717431599378353
+    second: Pawns_30
+  - first:
+      213: -1012764629414601179
+    second: Pawns_31
+  - first:
+      213: -8727844583693845007
+    second: Pawns_32
+  - first:
+      213: -3063479116956528976
+    second: Pawns_33
+  - first:
+      213: -6997688922227855504
+    second: Pawns_34
+  - first:
+      213: 4419466997614971889
+    second: Pawns_35
+  - first:
+      213: 7739076826594695396
+    second: Pawns_36
+  - first:
+      213: -1547088014179365525
+    second: Pawns_37
+  - first:
+      213: -8277518771669825728
+    second: Pawns_38
+  - first:
+      213: 1644203583912020082
+    second: Pawns_39
+  - first:
+      213: -2847800825319518338
+    second: Pawns_40
+  - first:
+      213: 4252213829809553284
+    second: Pawns_41
+  - first:
+      213: -5360116824229140709
+    second: Pawns_42
+  - first:
+      213: -2895246633395369328
+    second: Pawns_43
+  - first:
+      213: -348695968962557676
+    second: Pawns_44
+  - first:
+      213: -1238752957429466630
+    second: Pawns_45
+  - first:
+      213: -5601763608753773924
+    second: Pawns_46
+  - first:
+      213: -2001967349951177535
+    second: Pawns_47
+  - first:
+      213: -4564369668475038564
+    second: Pawns_48
+  - first:
+      213: 4308822440200612362
+    second: Pawns_49
+  - first:
+      213: -7260748012919196300
+    second: Pawns_50
+  - first:
+      213: -1014115551937250304
+    second: Pawns_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pawns_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 451
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d124ce27d4b2f0180800000000000000
+      internalID: -9147044706525625827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 452
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb8bec782182e9c0800000000000000
+      internalID: -3899412316454941700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 452
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fa4d7e088f66ce0800000000000000
+      internalID: -1412168200605094065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 451
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db43b1af0d7d3ec0800000000000000
+      internalID: -3585572222226183211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeb57d7372eeb4c0800000000000000
+      internalID: -4269726411046666520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad88e38eeb5bc2f00800000000000000
+      internalID: 1093448641089013978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528d66d08300628b0800000000000000
+      internalID: -5177450480872794075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88057bc85857b46c0800000000000000
+      internalID: -4158100614494596984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b61940528de8bf0800000000000000
+      internalID: -320080869994697978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4ea7575fb2d7f80800000000000000
+      internalID: -8107275420959054636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440ed76fdda466c70800000000000000
+      internalID: 8963934425511223364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2f93947598113a0800000000000000
+      internalID: -6696420162939522378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e0854de493a6100800000000000000
+      internalID: 101956952302030487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5641ff8728dbab5d0800000000000000
+      internalID: -3045913829889338267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_14
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f848da62e7c8c510800000000000000
+      internalID: 1569724245407713524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_15
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced98a4082c758ef0800000000000000
+      internalID: -106542504854643220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a21e040011d56d0800000000000000
+      internalID: -3000223083972711853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_17
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56b4dd77762910e0800000000000000
+      internalID: -2298763840141871522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_18
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 405
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9645721347424e0800000000000000
+      internalID: -2007351779438335571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 404
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fef3f1af328d9e30800000000000000
+      internalID: 4511905611506777842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514cebf74e5e78ad0800000000000000
+      internalID: -2699936682026810347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d2c09113030b190800000000000000
+      internalID: -7948800354877166245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8881855ba688a30800000000000000
+      internalID: 4217738378132097269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5d658151e3482e0800000000000000
+      internalID: -2124504863888452123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b2f6a2a01b8aa20800000000000000
+      internalID: 3073901402900081501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_25
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02009d00450f3cc50800000000000000
+      internalID: 6684450515530088480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_26
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1761000f4202a9360800000000000000
+      internalID: 7177084299185755761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_27
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed0ef536d742cb60800000000000000
+      internalID: 7764847692894572010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe67443b4629882d0800000000000000
+      internalID: -3276207767710042385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92115a0fc2a563180800000000000000
+      internalID: -9136015645012061911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_30
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfa9ad5ca89ec270800000000000000
+      internalID: 8272717431599378353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_31
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e99a67fefe1f1f0800000000000000
+      internalID: -1012764629414601179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd7c1ed79770e680800000000000000
+      internalID: -8727844583693845007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be8af069f55c75d0800000000000000
+      internalID: -3063479116956528976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 368
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f2ce5200733ee90800000000000000
+      internalID: -6997688922227855504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_35
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 366
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb0769a1d9155d30800000000000000
+      internalID: 4419466997614971889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 327
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e852a2de59b66b60800000000000000
+      internalID: 7739076826594695396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d039ed5a3a78ae0800000000000000
+      internalID: -1547088014179365525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_38
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0470ef88888502d80800000000000000
+      internalID: -8277518771669825728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_39
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 327
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278008db27261d610800000000000000
+      internalID: 1644203583912020082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 327
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f04c7dc349a78d0800000000000000
+      internalID: -2847800825319518338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_41
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f3dc2f2f5e20b30800000000000000
+      internalID: 4252213829809553284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_42
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b172a31c52a0d95b0800000000000000
+      internalID: -5360116824229140709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 327
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ac25fc68402d7d0800000000000000
+      internalID: -2895246633395369328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 327
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419406b1dde292bf0800000000000000
+      internalID: -348695968962557676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_45
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9b3f79fb01fcee0800000000000000
+      internalID: -1238752957429466630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_46
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9265806da98242b0800000000000000
+      internalID: -5601763608753773924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_47
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 327
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccda365d459734e0800000000000000
+      internalID: -2001967349951177535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 327
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c945af638f918a0c0800000000000000
+      internalID: -4564369668475038564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_49
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0aa3642e230ccb30800000000000000
+      internalID: 4308822440200612362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_50
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 328
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475f35eb624ac3b90800000000000000
+      internalID: -7260748012919196300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pawns_51
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 327
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cb49d47432de1f0800000000000000
+      internalID: -1014115551937250304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pawns_0: -9147044706525625827
+      Pawns_1: -3899412316454941700
+      Pawns_10: 8963934425511223364
+      Pawns_11: -6696420162939522378
+      Pawns_12: 101956952302030487
+      Pawns_13: -3045913829889338267
+      Pawns_14: 1569724245407713524
+      Pawns_15: -106542504854643220
+      Pawns_16: -3000223083972711853
+      Pawns_17: -2298763840141871522
+      Pawns_18: -2007351779438335571
+      Pawns_19: 4511905611506777842
+      Pawns_2: -1412168200605094065
+      Pawns_20: -2699936682026810347
+      Pawns_21: -7948800354877166245
+      Pawns_22: 4217738378132097269
+      Pawns_23: -2124504863888452123
+      Pawns_24: 3073901402900081501
+      Pawns_25: 6684450515530088480
+      Pawns_26: 7177084299185755761
+      Pawns_27: 7764847692894572010
+      Pawns_28: -3276207767710042385
+      Pawns_29: -9136015645012061911
+      Pawns_3: -3585572222226183211
+      Pawns_30: 8272717431599378353
+      Pawns_31: -1012764629414601179
+      Pawns_32: -8727844583693845007
+      Pawns_33: -3063479116956528976
+      Pawns_34: -6997688922227855504
+      Pawns_35: 4419466997614971889
+      Pawns_36: 7739076826594695396
+      Pawns_37: -1547088014179365525
+      Pawns_38: -8277518771669825728
+      Pawns_39: 1644203583912020082
+      Pawns_4: -4269726411046666520
+      Pawns_40: -2847800825319518338
+      Pawns_41: 4252213829809553284
+      Pawns_42: -5360116824229140709
+      Pawns_43: -2895246633395369328
+      Pawns_44: -348695968962557676
+      Pawns_45: -1238752957429466630
+      Pawns_46: -5601763608753773924
+      Pawns_47: -2001967349951177535
+      Pawns_48: -4564369668475038564
+      Pawns_49: 4308822440200612362
+      Pawns_5: 1093448641089013978
+      Pawns_50: -7260748012919196300
+      Pawns_51: -1014115551937250304
+      Pawns_6: -5177450480872794075
+      Pawns_7: -4158100614494596984
+      Pawns_8: -320080869994697978
+      Pawns_9: -8107275420959054636
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

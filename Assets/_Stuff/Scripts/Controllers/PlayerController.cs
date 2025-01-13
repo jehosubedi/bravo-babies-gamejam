@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -7,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float movementSpeed = 8;
     public GameObject modal;
     public TahoController tahoController;
-
+    public HUDController hudController;
     Rigidbody2D rb;
     Vector2 inputVector;
     CameraController cam;
@@ -38,21 +39,26 @@ public class PlayerController : MonoBehaviour
             cam.ToggleOffset(true);
             queued = true;
             inputVector = Vector2.zero;
+            if(!modal.activeSelf)
+                AudioHandler.instance?.PlaySFX("Open");
             modal.SetActive(true);
-            tahoController.AddOrder(storeQueue.Count);
+            tahoController.AddOrder(customer);
         }
 
         return queued;
     }
 
-    public void Fulfill(/*AIController target*/)
+    public void Fulfill(AIController target)
     {
         storeQueue.Remove(storeQueue[storeQueue.Count-1]);
-        tahoController.AddOrder(storeQueue.Count);
+        target.FulfillOrder();
+        hudController.UpdateCash();
+        //Increase cash here
         if (storeQueue.Count == 0)
         {
             cam.ToggleOffset(false);
             modal.SetActive(false);
+            AudioHandler.instance?.PlaySFX("Close");
         }
     }
 }

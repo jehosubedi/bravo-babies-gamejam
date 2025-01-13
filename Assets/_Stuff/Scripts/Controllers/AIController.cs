@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -25,7 +24,6 @@ public class AIController : MonoBehaviour
     MobSpawnController spawnController;
     NavMeshAgent agent;
     float idleTime;
-    Animator anim;
 
     private void Awake()
     {
@@ -33,11 +31,11 @@ public class AIController : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.speed = Random.Range(1.2f,3.5f);
-        anim = GetComponent<Animator>();
     }
 
-    public void Initialize(MobSpawnController controller, Transform destination, Transform origin)
+    public void Initialize(MobSpawnController controller, Transform destination, Transform origin, Sprite actor)
     {
+        GetComponent<SpriteRenderer>().sprite = actor;
         targetPOI = destination;
         originPOI = origin;
         spawnController = controller;
@@ -49,7 +47,12 @@ public class AIController : MonoBehaviour
         hungerMeter = Random.Range(0f,0.7f);
         col = GetComponent<BoxCollider2D>();
         idleTime = Random.Range(5, 8);
-        anim.SetInteger("NPC", Random.Range(0, 3));
+    }
+    public void FulfillOrder()
+    {
+        cash -= 15;
+        buying = false;
+        MoodSwitch(MobState.Satisfied);
     }
 
     private void Update()
@@ -70,13 +73,6 @@ public class AIController : MonoBehaviour
             case MobState.WaitForVendor:
                 break;
             case MobState.Stroll:
-                if (targetPOI == null)
-                {
-                    defaultState = MobState.Idle;
-                    MoodSwitch(MobState.Idle);
-                    return;
-                }
-
                 agent.SetDestination(targetPOI.position);
                 if((transform.position - targetPOI.position).magnitude < 1.8f)
                 {
@@ -88,10 +84,7 @@ public class AIController : MonoBehaviour
                 if (idleTime > 0)
                     idleTime -= Time.deltaTime;
                 else
-                {
-                    spawnController.PopNPC(gameObject);
-                    Destroy(gameObject);
-                }
+                    MoodSwitch(MobState.Stroll);
 
                 break;
         }
@@ -115,9 +108,9 @@ public class AIController : MonoBehaviour
                     float r = Random.Range(2, 5);
                     ShowBubble(0,r);
                     yield return new WaitForSeconds(r);
-                    if (cash > 15 && hungerMeter <= 0.25)
+                    if (cash >= 15 && hungerMeter <= 0.25)
                         MoodSwitch(MobState.Hungry);
-                    else if (cash < 5)
+                    else if (cash < 15)
                         MoodSwitch(MobState.Cashless);
                     else if (hungerMeter > 0.25)
                         MoodSwitch(defaultState);
@@ -144,7 +137,7 @@ public class AIController : MonoBehaviour
                     buying = false;
                     satisfied = true;
                     satisfyDuration = Random.Range(5, 20);
-
+                    yield return new WaitForSeconds(3);
                     if (defaultState == MobState.Stroll && targetPOI != null)
                         agent.SetDestination(targetPOI.position);
 

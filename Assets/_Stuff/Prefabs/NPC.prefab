@@ -272,7 +272,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1623697212, guid: ed6aef7541f125140a2c8f000b17dfc3, type: 3}
+  m_Sprite: {fileID: -4269726411046666520, guid: 31fb8e351d5d49240998ff3f5e3566d9, type: 3}
   m_Color: {r: 1, g: 0.95137936, b: 0.759434, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -364,13 +364,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.32}
+    oldSize: {x: 0.2, y: 0.33}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!195 &-5390576907666538499
 NavMeshAgent:
@@ -390,8 +390,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 0.4
-  m_BaseOffset: 0.2
+  m_Height: 0.2
+  m_BaseOffset: 0.15
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!95 &9193331434936652719
@@ -402,7 +402,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7046284317687199746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b4d2d1033885db04c943d56902b00ae4, type: 2}
   m_CullingMode: 0
