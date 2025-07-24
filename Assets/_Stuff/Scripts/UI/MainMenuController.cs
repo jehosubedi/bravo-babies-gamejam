@@ -14,19 +14,19 @@ public class MainMenuController : MonoBehaviour
     public void StartGame()
     {
         if(PlayerPrefs.HasKey("GameSave"))
-            overwritePrompt.SetActive(false);
+            overwritePrompt.SetActive(true);
         else
-            UITransitions.Instance?.FadeOut(0.4f, "CityScene");
+            UITransitions.Instance?.FadeOut(0.4f, "Game");
     }
     
     public void ContinueGame()
     {
-        UITransitions.Instance?.FadeOut(0.4f, "CityScene");
+        UITransitions.Instance?.FadeOut(0.4f, "Game");
     }
     public void OverwriteGame()
     {
         PlayerPrefs.DeleteAll();
-        UITransitions.Instance?.FadeOut(0.4f, "CityScene");
+        UITransitions.Instance?.FadeOut(0.4f, "Game");
     }
     public void QuitGame() => Application.Quit();
     public void OpenSettings() => SceneManager.LoadScene("Settings",LoadSceneMode.Additive);

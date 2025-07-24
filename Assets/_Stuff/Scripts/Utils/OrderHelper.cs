@@ -4,23 +4,23 @@ using UnityEngine.UI;
 
 public class OrderHelper : MonoBehaviour
 {
-    PlayerController p;
-    AIController controller;
-    public Sprite[] hands;
+    public Slider patienceMeter;
+    public Image patienceFill;
 
     [Header("Ingredients")]
     public GameObject ingredient;
     public Transform ingredientParent;
     public Sprite[] ingredientsSprites;
 
+    private PlayerController p;
+    private AIController controller;
 
-    int soya, arnibal, sago;
-    bool initialized = false;
+    private int soya, arnibal, sago;
+    private bool initialized = false;
+    private float timer = 15;
 
     public void Initialize(AIController owner, PlayerController player)
     {
-        GetComponent<Image>().sprite = hands[Random.Range(0, hands.Length)];
-
         if (!initialized)
         {
             controller = owner;
@@ -41,7 +41,7 @@ public class OrderHelper : MonoBehaviour
             if (sago > 0)
             {
                 var ing = Instantiate(ingredient, ingredientParent);
-                ing.GetComponent<Image>().sprite = ingredientsSprites[0];
+                ing.GetComponentInChildren<Image>().sprite = ingredientsSprites[0];
                 ing.GetComponentInChildren<TMP_Text>().SetText($"x{sago}");
                 ing.SetActive(true);
             }
@@ -49,21 +49,36 @@ public class OrderHelper : MonoBehaviour
             if (arnibal > 0)
             {
                 var ing = Instantiate(ingredient, ingredientParent);
-                ing.GetComponent<Image>().sprite = ingredientsSprites[1];
-                ing.GetComponentInChildren<TMP_Text>().SetText($"x{arnibal}");
+                ing.GetComponentInChildren<Image>().sprite = ingredientsSprites[1];
+                ing.GetComponentInChildren<TMP_Text>().SetText($"x{arnibal}");  
                 ing.SetActive(true);
             }
 
             if (soya > 0)
             {
                 var ing = Instantiate(ingredient, ingredientParent);
-                ing.GetComponent<Image>().sprite = ingredientsSprites[2];
+                ing.GetComponentInChildren<Image>().sprite = ingredientsSprites[2];
                 ing.GetComponentInChildren<TMP_Text>().SetText($"x{soya}");
                 ing.SetActive(true);
             }
 
             initialized = true;
         }
+    }
+
+    private void Update()
+    {
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+            patienceMeter.value = timer;
+            if (timer > 7 && timer < 8)
+                patienceFill.color = Color.yellow;
+            if (timer < 0.7f)
+                patienceFill.color = Color.red;
+        }
+        else
+            Unfulfill();
     }
 
     public int GetSago() => sago;
@@ -73,6 +88,12 @@ public class OrderHelper : MonoBehaviour
     public void Fulfill()
     {
         p.Fulfill(controller);
+        Destroy(gameObject);
+    }
+
+    public void Unfulfill()
+    {
+        p.Unfulfill(controller);
         Destroy(gameObject);
     }
 }

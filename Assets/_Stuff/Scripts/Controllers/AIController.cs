@@ -10,32 +10,34 @@ public class AIController : MonoBehaviour
     public MobState currentState;
     public float hungerMeter = 1;
     public int cash;
-    public Animator bubble; 
+    public Animator bubble;
+    public Vector2 velo;
 
-    bool buying = false;
-    bool canBuy = true;
-    bool satisfied = false;
-    float satisfyDuration;
-    Transform targetVendor;
-    Transform targetPOI;
-    Transform originPOI;
-    MobState defaultState;
-    BoxCollider2D col;
-    MobSpawnController spawnController;
-    NavMeshAgent agent;
-    float idleTime;
+    private bool buying = false;
+    private bool canBuy = true;
+    private bool satisfied = false;
+    private float satisfyDuration;
+    private Transform targetVendor;
+    private Transform targetPOI;
+    private Transform originPOI;
+    private MobState defaultState;
+    private BoxCollider2D col;
+    private MobSpawnController spawnController;
+    private NavMeshAgent agent;
+    private float idleTime;
+    private Animator anim;
 
     private void Awake()
     {
+        anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.speed = Random.Range(1.2f,3.5f);
     }
 
-    public void Initialize(MobSpawnController controller, Transform destination, Transform origin, Sprite actor)
+    public void Initialize(MobSpawnController controller, Transform destination, Transform origin)
     {
-        GetComponent<SpriteRenderer>().sprite = actor;
         targetPOI = destination;
         originPOI = origin;
         spawnController = controller;
@@ -55,6 +57,12 @@ public class AIController : MonoBehaviour
         MoodSwitch(MobState.Satisfied);
     }
 
+    public void UnfulfilleOrder()
+    {
+        buying = false;
+        MoodSwitch(MobState.Unsatisfied);
+    }
+
     private void Update()
     {
         if (satisfied && satisfyDuration > 0)
@@ -62,19 +70,48 @@ public class AIController : MonoBehaviour
         else
             satisfied = false;
 
+        anim.SetBool("IsMoving", agent.velocity.normalized.magnitude > 0);
+
+        if(agent.velocity.normalized.magnitude > 0)
+        {
+            anim.SetFloat("Y", agent.velocity.normalized.y);
+            anim.SetFloat("X", agent.velocity.normalized.x);
+        }
+
         hungerMeter = Mathf.Clamp(hungerMeter -= Time.deltaTime / 200, 0, 100);
 
         switch (currentState)
         {
             case MobState.GoToVendor:
-                agent.SetDestination(targetVendor.position);
-                agent.isStopped = false;
+                if (Mathf.Abs((transform.position - targetVendor.position).magnitude) > 1f)
+                {
+                    agent.SetDestination(targetVendor.position);
+                    agent.isStopped = false;
+                }
+                else if(buying && !agent.isStopped)
+                {
+                    targetVendor.TryGetComponent(out PlayerController p);
+                    currentState = MobState.Queueing;
+                    bubble.gameObject.SetActive(false);
+                    agent.isStopped = true;
+                    if (!p.Queue(this))
+                        MoodSwitch(MobState.Unsatisfied);
+                }
                 break;
             case MobState.WaitForVendor:
+                if (buying && Mathf.Abs((transform.position - targetVendor.position).magnitude) <= 1f)
+                {
+                    targetVendor.TryGetComponent(out PlayerController p);
+                    currentState = MobState.Queueing;
+                    bubble.gameObject.SetActive(false);
+                    agent.isStopped = true;
+                    if (!p.Queue(this))
+                        MoodSwitch(MobState.Unsatisfied);
+                }
                 break;
             case MobState.Stroll:
                 agent.SetDestination(targetPOI.position);
-                if((transform.position - targetPOI.position).magnitude < 1.8f)
+                if(Mathf.Abs((transform.position - targetPOI.position).magnitude) < .5f)
                 {
                     spawnController.PopNPC(gameObject);
                     Destroy(gameObject);
@@ -118,7 +155,7 @@ public class AIController : MonoBehaviour
                 case MobState.Hungry:
                     ShowBubble(1, loop: true);
                     buying = true;
-                    col.size = Vector2.one * 0.5f;
+                    col.size = Vector2.one * 0.25f;
                     // Decide if going to follow the vendor or wait for the vendor
                     if (Random.value > .5)
                         MoodSwitch(MobState.GoToVendor);
@@ -191,14 +228,6 @@ public class AIController : MonoBehaviour
                     targetVendor = collision.transform;
                     MoodSwitch(MobState.Contemplating);
                 }
-
-            if (buying)
-            {
-                targetVendor.TryGetComponent(out PlayerController p);
-                currentState = MobState.Queueing;
-                bubble.gameObject.SetActive(false);
-                p.Queue(this);
-            }
         }
     }
 }

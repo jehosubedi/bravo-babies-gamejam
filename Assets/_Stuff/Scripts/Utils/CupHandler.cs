@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.Jobs;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,11 +11,15 @@ public class CupHandler : MonoBehaviour
     GraphicRaycaster raycaster;
     Canvas canvas;
 
+    public Image[] partsImage;
+    public Sprite[] partsSprite;
+
     bool isReady = false;
     Vector2 defPos;
     bool dragging = false;
 
     int sago, arnibal, soya;
+    internal bool hasSago, hasArnibal, hasSoya;
 
     private void Start()
     {
@@ -105,6 +108,37 @@ public class CupHandler : MonoBehaviour
         }
 
         return null;
+    }
+
+    public void AddIngredient(int id)
+    {
+        int targetPart = 0;
+        bool hasSlot = true;
+
+        for (int i = 0; i < partsImage.Length; i++)
+        {
+            if (partsImage[i].sprite == null)
+            {
+                targetPart = i;
+                hasSlot = true;
+                break;
+            }
+            else
+                hasSlot = false;
+        }
+
+        if (!hasSlot) return;
+        
+        partsImage[targetPart].sprite = partsSprite[id];
+        partsImage[targetPart].enabled = true;
+    }
+
+    public void MixIngredients()
+    {
+        for (int i = 0; i < partsImage.Length; i++)
+        {
+            partsImage[i].enabled = false;
+        }
     }
 
 }

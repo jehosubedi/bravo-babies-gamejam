@@ -13,6 +13,12 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler,
     {
         BG = this.GetComponent<Image>();
         knob = this.transform.GetChild(0).GetComponent<Image>();
+
+#if UNITY_ANDROID || UNITY_IOS
+        GetComponent<CanvasGroup>().alpha = 1;
+        GetComponent<CanvasGroup>().interactable = true;
+        GetComponent<CanvasGroup>().blocksRaycasts = true;
+#endif
     }
 
     public void OnDrag(PointerEventData data)

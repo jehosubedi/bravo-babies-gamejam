@@ -1,5 +1,8 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioHandler : MonoBehaviour
 {
@@ -9,9 +12,14 @@ public class AudioHandler : MonoBehaviour
     public AudioMixerGroup BGM;
     public AudioMixerGroup SFX;
 
-    [Header("Others")]
-    public AudioSource SFXSource;
+    [Header("BGM")]
+    public AudioSource BGMSource;
+    public AudioClip MenuScore;
+    public AudioClip GameScore;
+    public AudioClip PrepScore;
 
+    [Header("SFX")]
+    public AudioSource SFXSource;
     public AudioClip hover;
     public AudioClip click;
     public AudioClip end;
@@ -30,9 +38,41 @@ public class AudioHandler : MonoBehaviour
 
             BGM.audioMixer.SetFloat("BGM", PlayerPrefs.GetFloat("BGM"));
             SFX.audioMixer.SetFloat("SFX", PlayerPrefs.GetFloat("SFX"));
+
+            SceneManager.activeSceneChanged += SwitchBGM;
         }
         else
             Destroy(gameObject);
+    }
+
+    private void SwitchBGM(Scene oldScene, Scene newScene)
+    {
+        if(newScene.name.Contains("Game"))
+            StartCoroutine(FadeBGM(GameScore));
+        else if(newScene.name.Contains("MainMenu"))
+            StartCoroutine(FadeBGM(MenuScore));
+
+
+        IEnumerator FadeBGM(AudioClip newBGM)
+        {
+            while(BGMSource.volume > 0)
+            {
+                BGMSource.volume -= Time.deltaTime / .002f;
+                yield return null;
+            }
+
+            BGMSource.clip = newBGM;
+            BGMSource.Play();
+
+            while (BGMSource.volume < .5f)
+            {
+                BGMSource.volume += Time.deltaTime / .002f;
+                yield return null;
+            }
+            BGMSource.volume = .5f;
+
+            yield return null;
+        }
     }
 
     public void PlaySFX(string clipName)

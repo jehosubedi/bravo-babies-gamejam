@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -9,25 +10,31 @@ public class PlayerController : MonoBehaviour
     public GameObject modal;
     public TahoController tahoController;
     public HUDController hudController;
-    Rigidbody2D rb;
-    Vector2 inputVector;
-    CameraController cam;
-    List<AIController> storeQueue = new List<AIController>();
+    public CinemachinePositionComposer cam;
+
+    private Rigidbody2D rb;
+    private Vector2 inputVector;
+    private Animator anim;
+    private List<AIController> storeQueue = new List<AIController>();
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        cam = Camera.main.GetComponent<CameraController>();
+        anim = GetComponent<Animator>();
     }
     public void Update()
     {
         if (storeQueue.Count == 0)
             inputVector = new Vector2(joystick.Horizontal(), joystick.Vertical());
+
+        anim.SetBool("IsMoving", inputVector.magnitude > 0);
     }
 
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + inputVector * movementSpeed * Time.fixedDeltaTime);
+        anim.SetFloat("X", inputVector.x);
+        anim.SetFloat("Y", inputVector.y);
     }
 
     public bool Queue(AIController customer)
@@ -36,7 +43,7 @@ public class PlayerController : MonoBehaviour
         if (storeQueue.Count < 3)
         {
             storeQueue.Add(customer);
-            cam.ToggleOffset(true);
+            cam.TargetOffset.x = 2;
             queued = true;
             inputVector = Vector2.zero;
             if(!modal.activeSelf)
@@ -56,7 +63,19 @@ public class PlayerController : MonoBehaviour
         //Increase cash here
         if (storeQueue.Count == 0)
         {
-            cam.ToggleOffset(false);
+            cam.TargetOffset.x = 0;
+            modal.SetActive(false);
+            AudioHandler.instance?.PlaySFX("Close");
+        }
+    }
+
+    public void Unfulfill(AIController target)
+    {
+        storeQueue.Remove(storeQueue[storeQueue.Count - 1]);
+        target.UnfulfilleOrder();
+        if (storeQueue.Count == 0)
+        {
+            cam.TargetOffset.x = 0;
             modal.SetActive(false);
             AudioHandler.instance?.PlaySFX("Close");
         }

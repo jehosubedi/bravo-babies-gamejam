@@ -4,9 +4,8 @@ using UnityEngine;
 public class MobSpawnController : MonoBehaviour
 {
     public int mobLimit;
-    public GameObject mobPrefab;
     public Transform[] spawnPoints;
-    public Sprite[] npcSprites;
+    public GameObject[] npcPrefabs;
 
     List<GameObject> npcList = new List<GameObject>();
 
@@ -18,12 +17,13 @@ public class MobSpawnController : MonoBehaviour
         {
             var origin = spawnPoints[Random.Range(0, spawnPoints.Length)];
             var destination = Random.value > .5 ? spawnPoints[Random.Range(0, spawnPoints.Length)].transform : origin;
-            var go = Instantiate(mobPrefab, spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position, Quaternion.identity);
-            go.GetComponent<AIController>().Initialize(this, destination, origin, npcSprites[Random.Range(0, npcSprites.Length)]);
+            GameObject npc = npcPrefabs[Random.Range(0, npcPrefabs.Length)];
+            var go = Instantiate(npc, spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position, Quaternion.identity);
+            go.GetComponent<AIController>().Initialize(this, destination, origin);
             npcList.Add(go);
         }
 
-        Invoke(nameof(TrySpawnNPC), Random.Range(2, 3));
+        Invoke(nameof(TrySpawnNPC), Random.Range(4, 8));
     }
 
     private void TrySpawnNPC()
@@ -32,8 +32,9 @@ public class MobSpawnController : MonoBehaviour
         {
             var origin = spawnPoints[Random.Range(0, spawnPoints.Length)];
             var destination = Random.value > .5 ? spawnPoints[Random.Range(0, spawnPoints.Length)].transform : origin;
-            var go = Instantiate(mobPrefab, spawnPoints[Random.Range(0,spawnPoints.Length)].transform.position, Quaternion.identity);
-            go.GetComponent<AIController>().Initialize(this, destination, origin, npcSprites[Random.Range(0, npcSprites.Length)]);
+            GameObject npc = npcPrefabs[Random.Range(0, npcPrefabs.Length)];
+            var go = Instantiate(npc, spawnPoints[Random.Range(0,spawnPoints.Length)].transform.position, Quaternion.identity);
+            go.GetComponent<AIController>().Initialize(this, destination, origin);
             npcList.Add(go);
         }
 

@@ -10,7 +10,7 @@ public class TahoController : MonoBehaviour
     public HUDController hud;
     public Canvas canvas;
     public GameObject cupPrefab;
-    public GameObject handPrefab;
+    public GameObject orderPrefab;
     public Transform cupPosition;
     public Transform garapon;
     public Transform[] handPositions;
@@ -20,8 +20,7 @@ public class TahoController : MonoBehaviour
     [Header("Ingredients")]
     public GameObject[] ingredients;
 
-    [Header("Cup Variants")]
-    public Sprite[] cups;
+    public Sprite stirred;
 
     [Header("Interactions")]
     public GameObject[] buttons;
@@ -64,24 +63,35 @@ public class TahoController : MonoBehaviour
                 buttons[1].SetActive(true);
                 buttons[0].SetActive(true);
 
+                if(currentCup.TryGetComponent(out CupHandler cup))
+
                 switch (currentScoop.GetComponent<ScoopHandler>().GetContent())
                 {   case "Arnibal":
-                        cupIndex = cupIndex == 0 ? 1 : cupIndex;
                         arnibalInt++;
                         arnibalTxt.SetText($"x{arnibalInt}");
-                        if(cupIndex == 1) currentCup.GetComponent<Image>().sprite = cups[1];
+                        if(!cup.hasArnibal)
+                            {
+                                cup.hasArnibal = true;
+                                cup.AddIngredient(0);
+                            }
                         break;
                     case "Sago":
-                        cupIndex = cupIndex == -1 ? 0 : cupIndex;
                         sagoInt++;
                         sagoTxt.SetText($"x{sagoInt}");
-                        if (cupIndex == 0) currentCup.GetComponent<Image>().sprite = cups[0];
+                        if (!cup.hasSago)
+                            {
+                                cup.hasSago = true;
+                                cup.AddIngredient(1);
+                            }
                         break;
                     case "Taho":
-                        cupIndex = cupIndex == 1 ? 2 : cupIndex;
                         soyaInt++;
                         soyaTxt.SetText($"x{soyaInt}");
-                        if (cupIndex == 2) currentCup.GetComponent<Image>().sprite = cups[2];
+                        if (!cup.hasSoya)
+                            {
+                                cup.hasSoya = true;
+                                cup.AddIngredient(2);
+                            }
                         break;
                 } 
             }
@@ -136,7 +146,7 @@ public class TahoController : MonoBehaviour
 
     public void AddOrder(AIController npc)
     {
-        var go = Instantiate(handPrefab, garapon);
+        var go = Instantiate(orderPrefab, garapon);
         for (int i = 0; i < handPositions.Length; i++)
         {
             if (handPositions[i].childCount <= 0)
@@ -166,7 +176,8 @@ public class TahoController : MonoBehaviour
 
     public void MixOrder()
     {
-        currentCup.GetComponent<Image>().sprite = cups[3];
+        currentCup.GetComponent<Image>().sprite = stirred;
+        currentCup.GetComponent<CupHandler>().MixIngredients();
         currentCup.GetComponent<CupHandler>().ReadyToServe(this, raycaster, canvas, sagoInt, arnibalInt, soyaInt);
         buttons[0].SetActive(false);
         // Make the cup serviceable
