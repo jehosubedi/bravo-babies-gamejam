@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
 
@@ -17,6 +16,8 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private List<AIController> storeQueue = new List<AIController>();
 
+    bool paused = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,6 +29,19 @@ public class PlayerController : MonoBehaviour
             inputVector = new Vector2(joystick.Horizontal(), joystick.Vertical());
 
         anim.SetBool("IsMoving", inputVector.magnitude > 0);
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (paused)
+            {
+                hudController.PauseGame();
+                paused = true;
+            }
+            else
+            {
+                hudController.ContinueGame();
+                paused = false;
+            }
+        }    
     }
 
     private void FixedUpdate()
