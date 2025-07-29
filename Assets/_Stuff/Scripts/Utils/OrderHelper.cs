@@ -17,7 +17,7 @@ public class OrderHelper : MonoBehaviour
 
     private int soya, arnibal, sago;
     private bool initialized = false;
-    private float timer = 15;
+    private float timer = 25;
 
     public void Initialize(AIController owner, PlayerController player)
     {

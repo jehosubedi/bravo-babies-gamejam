@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ScoopedTaho_0: -7534081137908018935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

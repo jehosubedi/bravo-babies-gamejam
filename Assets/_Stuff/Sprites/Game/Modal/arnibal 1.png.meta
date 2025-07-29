@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arnibal 1_0: 9198792909591473835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

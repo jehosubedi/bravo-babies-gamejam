@@ -79,6 +79,7 @@ public class PlayerController : MonoBehaviour
         {
             cam.TargetOffset.x = 0;
             modal.SetActive(false);
+            modal.GetComponent<TahoController>().ScrapOrder();
             AudioHandler.instance?.PlaySFX("Close");
         }
     }
@@ -91,6 +92,7 @@ public class PlayerController : MonoBehaviour
         {
             cam.TargetOffset.x = 0;
             modal.SetActive(false);
+            modal.GetComponent<TahoController>().ScrapOrder();
             AudioHandler.instance?.PlaySFX("Close");
         }
     }
